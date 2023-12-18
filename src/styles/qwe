@@ -1,0 +1,15 @@
+const [filterProperties, setFilterProperties] = useState({
+rabotaet    sNameDebtor: "", // наименование должника
+rabotaet    sManager: "", // наименование управляющего
+rabotaet    sDataFrom: "", //дата от
+rabotaet    sDataUntil: "", //дата до
+rabotaet    sProcedure: [], // процедура
+rabotaet    sUPN: "", // упн
+rabotaet    sRegion: [], // регион
+rabotaet    sCaseStatus: "", // активное или закрытое дело
+rabotaet    sCategory: [], // категории
+rabotaet    sApplicantType: [], // типы
+rabotaet    sCaseNumber: "", //  номер
+rabotaet    sShareOfStateOwnershipMin: 0, // процент от
+rabotaet    sShareOfStateOwnershipMax: 0 // процент по
+  })
